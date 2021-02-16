@@ -1,0 +1,40 @@
+#hero-container {
+    height: 50vh;
+    background: radial-gradient(ellipse at top, transparent, #3158a1),
+    radial-gradient(ellipse at bottom, transparent, #26a3c9);
+    
+}
+
+#hero-container > h1 {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+
+#projects-container {
+    margin-top: -100px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 #3158a1;
+    cursor: default;
+    color: #757575;
+    min-height: 120px;
+}
+
+.card > div > h5{
+    margin-top: 20%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+}
+
+.clickable{
+    color: #000000;
+}
+
+.clickable:hover {
+    box-shadow: 0 4px 8px 0 #000000;
+    top: -2px;
+    right: -1px;
+}
